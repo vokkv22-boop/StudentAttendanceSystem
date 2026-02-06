@@ -1,4 +1,8 @@
 package model;
 
-public class AttendanceStatus {
+public enum AttendanceStatus {
+    PRESENT,
+    ABSENT,
+    LATE,
+    EXCUSED
 }

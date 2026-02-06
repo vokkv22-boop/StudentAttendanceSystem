@@ -1,4 +1,8 @@
 package model;
 
-public class Teacher {
+public class Teacher extends User {
+
+    public Teacher(int id, String name) {
+        super(id, name);
+    }
 }
