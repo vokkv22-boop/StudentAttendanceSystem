@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Course {
+
     private String name;
     private List<Student> students = new ArrayList<>();
 
@@ -18,4 +19,10 @@ public class Course {
     public String getName() {
         return name;
     }
+    @Override
+    public String toString() {
+        return name;
+    }
+
 }
+

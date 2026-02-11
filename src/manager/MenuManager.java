@@ -38,6 +38,10 @@ public class MenuManager {
         manager.markAttendance(student, course, status);
 
         System.out.println("\nAttendance record:");
-        manager.showAttendance();
+        refreshAttendanceTable();
+
+    }
+
+    private void refreshAttendanceTable() {
     }
 }

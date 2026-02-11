@@ -12,6 +12,18 @@ public class AttendanceRecord {
         this.status = status;
     }
 
+    public Student getStudent() {
+        return student;
+    }
+
+    public Course getCourse() {
+        return course;
+    }
+
+    public AttendanceStatus getStatus() {
+        return status;
+    }
+
     public String toString() {
         return student.getName() + " | " +
                 course.getName() + " | Status: " + status;
